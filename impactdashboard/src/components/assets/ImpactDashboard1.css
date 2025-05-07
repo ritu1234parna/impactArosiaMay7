@@ -1,0 +1,112 @@
+/* Dashboard Container */
+.dashboard-container {
+  padding: 10px;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  min-height: 100vh;
+  min-width: 20vw;
+  
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1100px;
+  padding: 10px;
+}
+
+/* Logo */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.dashboard-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+/* Logout Button */
+.logout-button {
+  background-color: #e53935;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c62828;
+}
+
+/* Impact Cards */
+.impact-cards-container {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.impact-card {
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 170px;
+  border: 1px solid #90caf9;
+  transition: transform 0.2s ease;
+}
+
+.impact-card:hover {
+  transform: scale(1.05);
+}
+
+.impact-icon {
+  font-size: 24px;
+  color: #1e88e5;
+  margin-bottom: 5px;
+}
+
+.impact-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #424242;
+}
+
+.impact-value {
+  font-size: 13px;
+  font-weight: bold;
+  color: #1565c0;
+}
+.counter-container {
+  margin-top: 20px;
+}
+
+.counter-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 200px;
+}
+
+.counter-icon {
+  font-size: 30px;
+  color: #007bff;
+}

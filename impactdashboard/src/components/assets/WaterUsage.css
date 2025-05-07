@@ -1,0 +1,11 @@
+.heatmap-container {
+    padding: 20px;
+    background-color: #f2f9ff;
+    text-align: center;
+}
+
+.heatmap-title {
+    font-size: 24px;
+    color: #004b8d;
+    margin-bottom: 15px;
+}

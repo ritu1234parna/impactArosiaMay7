@@ -1,0 +1,92 @@
+/* App.css */
+body {
+    font-family: sans-serif; /* Choose a suitable font */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0; /* Example header background */
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  .hero {
+    background-image: url('./r1.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px;
+    height: 30vh;
+    text-align: center;
+  }
+  .hero-map {
+    background-image: url('./sustainability.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px;
+    height: 20vh;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .sustainability-focus {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .focus-areas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .focus-area {
+    width: 30%; /* Adjust as needed */
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional border */
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+    left: 20.5%;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* ... more styles as needed */
